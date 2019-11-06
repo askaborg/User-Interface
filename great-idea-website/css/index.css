@@ -64,3 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.topItems {
+	width: 1000px;
+	border: 20px solid red;
+}
+
+.bigBox {
+	border: 20px solid red;
+}
