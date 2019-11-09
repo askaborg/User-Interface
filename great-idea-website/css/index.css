@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container-top {
+	clear: both;
+	margin-bottom: 40px;
+	padding: 20px 7% 20px 7%;
+	border-top: 20px solid black;
+}
+
+.container-top.page {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.page {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.menu {
+
+}
+
+.list {
+	float: left;
+
+}
+
+ul {
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	display: block;
+	color: darkgray;
+	font-weight: bold;
+	padding: 8px 30px;
+	text-decoration: none;
+  }
+  
+
+.logo {
+	float: right;
+	background-color: white;
+}
+
+.content {
+	clear: both;
+	border-top: 2px solid black;
+	margin: 20px 7% 0px 7%;
+}
+
+.footer {
+	border-top: 2px solid black;
+	margin: 20px 7% 0px 7%;
+	clear: both;
+}
+
+.sidebar {
+	width: 550px;
+	margin-left: 5%;
+	float: left;
+	text-align: center;
+}
+
+.image {
+	float: right;
+	margin-right: 4%;
+	background-color: white;
+}
+
+.container {
+	clear: both;
+	background-color: white;
+	margin-bottom: 50px;
+	padding: 8px 30px;
+}
+
+.special {
+	font-size: 5em;
+	margin-top: 50px;
+}
+
+.two.col {
+	float: left;
+	width: 50%;
+	margin: 30px auto 30px 0px;
+}
+
+.col {
+	float: left;
+	width: 33%;
+	margin: 30px auto 30px 0px;
+}
+
+.middle-img {
+  display: block;
+  margin: 0px auto 0px auto;
+  width: 100%;
+}
+
+.bold {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 900;
+	margin: 10px 0;
+}
+
+.button {
+	display: inline-block;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px 50px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#copyright {
+	text-align: center;
+	margin-top: 50px;
+}
